@@ -1,88 +1,107 @@
 # Board Cyber Briefings
 
-Templates and guidance for briefing a board of directors on cybersecurity, written by someone who has spent 25 years actually delivering them.
+Templates and notes for briefing a board on cybersecurity, from somebody who's spent 30 years doing it.
 
-Most security leaders are good at security and bad at boards. That is not a character flaw. Nobody teaches it, the feedback loop is terrible, and you usually get one shot per quarter. This repo is what I wish someone had handed me before my first one.
-
----
-
-## Who this is for
-
-- CISOs and vCISOs who present to a board or audit committee
-- CTOs and CIOs who own security as part of a broader remit
-- Security leaders who report to an executive team and want the same discipline
-- Consultants preparing a client for a board conversation
-
-## Who this is not for
-
-- Anyone looking for a compliance artifact. This is about communication, not evidence.
-- Teams looking for a GRC tool. There is no software here.
+Most security people are good at security and bad at boards. That's not a knock. Nobody teaches it, the feedback loop is terrible, and you get one shot a quarter to practice. This is what I wish somebody had handed me before my first one.
 
 ---
 
-## What's inside
+## 51% of a Security Program Is Acknowledging the Risk
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="charts/fifty-one-percent-dark.svg">
+  <img alt="A bar split 51 percent acknowledging the risk, 49 percent everything else." src="charts/fifty-one-percent-light.svg">
+</picture>
+
+Every real fix I've been part of started with somebody senior saying out loud that a risk was real. Controls and tools and audits are the other 49%. All dead weight until somebody admits the problem exists.
+
+Which makes the board conversation the actual control. That's what this repo is for.
+
+One of eleven things I say a lot. Rest are in [PRINCIPLES.md](https://github.com/HarrisonWard/.github/blob/main/PRINCIPLES.md).
+
+---
+
+## Who It's For
+
+- CISOs and vCISOs presenting to a board or audit committee
+- CTOs and CIOs who own security as part of a bigger job
+- Anybody reporting to an exec team who wants the same discipline
+- Consultants prepping a client for a board conversation
+
+## Who It's Not For
+
+Anybody looking for compliance evidence. This is about talking to people, not proving things to auditors.
+
+---
+
+## What's in Here
 
 | File | What it is |
 |---|---|
-| `quarterly-update/` | The standard quarterly board cyber update, annotated slide by slide with what goes on each one and why |
-| `incident-briefing/` | Structure for briefing a board during and after a significant incident |
-| `budget-case/` | How to ask for money in a way that survives contact with a CFO |
-| `metrics-guide.md` | Which numbers to show a board, which to never show, and what each one actually tells them |
-| `language-bank.md` | How to say hard things clearly — material gaps, missed targets, bad news — without causing panic or losing the room |
-| `pre-read.md` | The one-page pre-read format, and why it changes how the meeting goes |
-| `examples/` | Paired bad-and-better versions of real briefing patterns, with notes on what changed |
+| `quarterly-update/` | The standard quarterly update, slide by slide, with notes on why each one is there |
+| `incident-briefing/` | Briefing a board during and after something bad |
+| `budget-case/` | Asking for money in a way that survives a CFO |
+| `metrics-guide.md` | What to show a board, what to never show, what each number actually says |
+| `language-bank.md` | How to say hard things without causing a panic or losing the room |
+| `pre-read.md` | The one-pager, and why it changes the whole meeting |
+| `examples/` | Bad version and better version, side by side, with notes on what changed |
 
 ---
 
-## Three things that took me too long to learn
+## Three Things That Took Me Too Long to Figure Out
 
-**1. The board is not asking "are we secure."** They are asking "are you managing this competently, and will I be embarrassed." Answer the question they are actually asking.
+**The Board Isn't Asking "Are We Secure."** They're asking "is this guy on top of it, and am I going to be embarrassed." Answer the question they're actually asking.
 
-**2. A number without a trend and a target is noise.** "We blocked 4 million emails" tells a director nothing. "Phishing click rate is 4%, down from 11% last year, target is under 3%" tells them you are running a program.
+**A number with no trend and no target is noise.** "We blocked 4 million emails" tells a director nothing. "Click rate is 4%, down from 11% last year, we want it under 3%" tells them you're running something.
 
-**3. Bad news delivered early is competence. Bad news discovered later is negligence.** The instinct to wait until you have a fix is the instinct that ends careers. Say it, then say what you are doing about it.
-
----
-
-## How to use this
-
-Do not present these as-is. They are structures, not scripts.
-
-1. Start with `metrics-guide.md` and pick 4 to 6 metrics you can actually produce every quarter. Consistency matters more than sophistication.
-2. Build your quarterly deck on the `quarterly-update/` structure.
-3. Write the pre-read. It's the highest-leverage thing in this repo and the most commonly skipped.
-4. Read `language-bank.md` before you have to deliver something uncomfortable.
-
-Steal what fits. Discard what doesn't. Every board is different, and yours will have its own personality within two meetings.
+**Bad news early is competence. Bad news they find out later is negligence.** The urge to wait until you have a fix is the urge that ends careers. Say it. Then say what you're doing about it.
 
 ---
 
-## What this is not
+## How to Use This
 
-This is not legal advice, regulatory guidance, or a compliance framework. Board reporting obligations vary by sector, jurisdiction, and company structure. If you are in a regulated industry or a public company, your general counsel needs to see anything you present before you present it.
+Don't present any of it as-is. These are shapes, not scripts.
 
-These are communication templates. They do not make your program good. They help you describe a good program accurately, and describe a weak one honestly.
+Start with `metrics-guide.md`. Pick four to six numbers you can actually produce every quarter. Consistency beats sophistication every time.
+
+Build your deck on the `quarterly-update/` structure. Write the pre-read. The pre-read is the highest-value thing in here and it's the thing everybody skips.
+
+Read `language-bank.md` before you have to deliver something uncomfortable.
+
+Take what fits. Throw out the rest. Every board has its own personality and you'll know yours inside two meetings.
+
+---
+
+## What This Isn't
+
+Not legal advice. Not regulatory guidance. Board reporting obligations change by sector, jurisdiction, and company structure. If you're public or regulated, your general counsel needs to see anything before you present it.
+
+These are communication templates. They won't make your program good. They'll help you describe a good one accurately, and describe a weak one straight.
 
 ---
 
 ## Contributing
 
-If you present to boards and have a structure that works better, open an issue or a pull request. I'm particularly interested in patterns from sectors I have less exposure to — healthcare systems, higher ed, public sector.
+Present to boards and do it differently? Tell me. I especially want to hear from sectors I've spent less time in. Healthcare systems, higher ed, public sector.
 
-Please do not submit anything containing real company information, board minutes, or client-identifiable material.
+Nothing client-identifiable. No board minutes. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
 ## License
 
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it, adapt it, use it commercially. Just give credit.
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it, change it, use it commercially. Just say where you got it.
 
 © 2026 Harrison Ward
 
 ---
 
-## About
+## Me
 
-I'm a cyber risk and technology executive. Former CTO of a five-office professional services firm, and most recently SVP in Kroll's Cyber Risk practice serving as vCISO to enterprise clients across regulated and critical-infrastructure sectors.
+Cyber risk and technology exec. Former CTO of a five-office professional services firm. Most recently SVP in Kroll's Cyber Risk practice, sitting as vCISO for enterprise clients in regulated and critical infrastructure.
 
-More at [github.com/HarrisonWard](https://github.com/HarrisonWard) · [LinkedIn](https://linkedin.com/in/harrisonaward)
+[github.com/HarrisonWard](https://github.com/HarrisonWard) · [LinkedIn](https://linkedin.com/in/harrisonaward)
+
+---
+
+*Published under [these principles](https://github.com/HarrisonWard/.github/blob/main/PRINCIPLES.md). Security Shouldn't Be Paywalled.*
